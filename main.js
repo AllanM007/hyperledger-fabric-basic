@@ -5,7 +5,7 @@
  * @transaction trade
  */
 
-// function to write smart contracts in
+// function to write smart contracts on
 
 function tradeCommodity(trade) {
     trade.commodity.owner = trade.newOwner;
