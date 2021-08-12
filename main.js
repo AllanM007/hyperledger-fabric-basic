@@ -5,6 +5,8 @@
  * @transaction trade
  */
 
+// function to write 
+
 function tradeCommodity(trade) {
     trade.commodity.owner = trade.newOwner;
     return getAssetRegistry('org.acme.mynetwork.Commodity')
