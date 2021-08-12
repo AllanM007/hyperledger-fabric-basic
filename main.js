@@ -5,7 +5,7 @@
  * @transaction trade
  */
 
-// function to write smart contracts on
+// function to write smart contracts on the Hyperledger Fabric Network
 
 function tradeCommodity(trade) {
     trade.commodity.owner = trade.newOwner;
