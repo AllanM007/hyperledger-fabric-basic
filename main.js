@@ -5,7 +5,7 @@
  * @transaction trade
  */
 
-// function to write 
+// function to write smart
 
 function tradeCommodity(trade) {
     trade.commodity.owner = trade.newOwner;
